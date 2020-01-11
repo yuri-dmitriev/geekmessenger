@@ -1,0 +1,40 @@
+{
+  "name": "Geekmessenger",
+  "version": "1.0.0",
+  "description": "Geekbrains ReactJS study project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuri-dmitriev/geekmessenger.git"
+  },
+  "keywords": [],
+  "author": "Yuri Dmitriev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuri-dmitriev/geekmessenger/issues"
+  },
+  "homepage": "https://github.com/yuri-dmitriev/geekmessenger#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}

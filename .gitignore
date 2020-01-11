@@ -1,0 +1,7 @@
+/node_modules
+
+# WebStorm preferences
+/.idea
+
+# Webpack build folder
+/static/build
