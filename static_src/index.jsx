@@ -16,7 +16,7 @@ const SendMessageButton = () => {
 
     ReactDOM.render(
       <App/>,
-      document.getElementById('root')
+      document.getElementById('root'),
     );
   }
 
@@ -34,5 +34,5 @@ const App = () => {
 
 ReactDOM.render(
   <App/>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
